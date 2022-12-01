@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>MY PORTFOLIO</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
+
+            function validate() {
+                var Name = document.getElementById("fname");
+                var Email = document.getElementById("femail");
+                var Phone = document.getElementById("fphone");
+                var Message = document.getElementById("fmessage");
+
+                if (name.value = "" || email.value = "" || phone.value ="" || message.value ="")
+                {
+                    alert("no blank values");
+                    return false;
+                }
+                else
+                {
+                    true;
+                }
+
+
+
+            }
+        </script>
+        <style>
+            .fakeimg {
+                height: 200px;
+                background: #aaa;
+            }
+
+            .img {
+                width: 40vw;
+                height: 40vw;
+            }
+
+            .content {
+                position: relative;
+                width: 90%;
+                max-width: 400px;
+                margin: auto;
+                overflow: hidden
+            }
+
+
+            .content-image {
+                width: 100%
+            }
+
+            .box {
+                box-sizing: border-box;
+            }
+
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: -0.5px;
+            }
+
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 70px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+
+            .fa-instagram {
+                background: #ae2a9c;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="p-5 text-white text-center"
+            style="background-color: rgb(166, 71, 166); font-size: xx-large ;font-family: cursive;">
+            <h1>MY PORTFOLIO</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="height:100px ;">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link active" href="#div4"
+                                style="font-size: x-large;font-family: cursive;">HOME</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div1"
+                                style="font-size: x-large;font-family: cursive;">GALLERY</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div2" style="font-size: x-large;font-family: cursive;">BLOG</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div3"
+                                style="font-size: x-large;font-family: cursive;">CONTACT</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div11" style="font-size: x-large;font-family: cursive;">P5js
+                                EDITOR</a>
+                        </h5>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div id="div4" class="">
+                            <img src="images/mine.jpeg" alt="About Me" class="img" style="margin: 5vw;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title" style="padding-top: 12vw ; font-family: cursive;">
+                        <h2 class="text-uppercase pt-5">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself!</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                <em>
+                                    <h4 style="font-size: x-large; text-align: left; font-family:cursive ;">
+                                        I'm Harshita Patel a Graphic designer student at <br>
+                                        Atlas Skilltech University ISDI <br>
+                                        studying Communication designing. I excel at softwares <br>
+                                        like Adobe Illustrator, Adobe Photoshop and Animation. <br>
+                                    </h4>
+                                </em>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="text-uppercase title-h1" ; style="padding: 30px;font-family: cursive;"> GALLERY </h1>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link active" href="#div7" style="font-family: cursive;">HISTORY OF DESIGN</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div8" style="font-family: cursive;">CORE STUDIO TYPOGRAPHY</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div9" style="font-family: cursive;">INDIAN AESTHETICS</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div10" style="font-family:cursive ;">COMMISSIONED ARTWORKS</a>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5>
+                            <a class="nav-link" href="#div12" style="font-family: cursive;">DIGITAL ARTWORKS</a>
+                        </h5>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h3 style="text-align:left ; padding:40px ; font-family: cursive;">HISTORY OF DESIGN</h3>
+        <section class="project-area">
+            <div id="div1" class="container" style="text-align:left; ;>
+                <div class=" project-title pb-5 ">
+                    <h1 class=" text-uppercase title-h1">
+                </h1>
+            </div>
+            <div id="div7" class="container">
+
+            </div>
+            <div class="row" style="padding:30px ;">
+                <div class="row">
+                    <div class="column">
+                        <img src="../harshita/images/h1.jpeg " alt=" Snow" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../harshita/images/h2.jpeg" alt="Forest" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../harshita/images/h3.jpeg" alt="Mountains" style="width:100%">
+                        <br> <br> <br>
+                    </div>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="../harshita/history.html" style="text-decoration: none; color:#bc10f0"> 
+                            see more 
+                        </a>
+                    </button>
+
+
+                    <h3 style="text-align:left ; padding: 30px ;font-family: cursive;">CORE STUDIO TYPOGRAPHY</h3> <br>
+                    <div id="div8" class="container">
+                    </div>
+
+                    <div class="row" style="padding:30px ;">
+                        <div class="row">
+                            <div class="column">
+                                <img src="../harshita/images/display font.jpeg" Snow" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="../harshita/images/drop cap.jpeg" alt="Forest" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="../harshita/images/CALLIGRAPHY.jpeg" alt="Mountains" style="width:100%">
+                                <br> <br> <br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <h3 style="text-align:left ; padding: 30px ;font-family: cursive;">INDIAN AESTHETICS</h3> <br>
+                    <div id="div9" class="container">
+
+                    </div>
+                    <div class="row" style="padding:30px ;">
+                        <div class="row">
+                            <div class="column">
+                                <img src="../harshita/images/poster1.jpg" Snow" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="../harshita/images/poster 2.jpeg" Forest" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="../harshita/images/Sustainablity.jpg" alt="Mountains" style="width:100%">
+                                <br> <br> <br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <h3 style="text-align:left ; padding: 30px ;font-family: cursive;">COMMISSIONED ARTWORKS</h3>
+
+                </div>
+                <div id="div10" class="container">
+
+                </div>
+                <div class="row" style="padding:30px ;">
+                    <div class="row">
+                        <div class="column">
+                            <img src="../harshita/images/1.jpeg " alt=" Snow" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../harshita/images/2.jpeg" alt="Forest" style="width:100%">
+                        </div>
+                        <div class="column">
+                            <img src="../harshita/images/3.jpeg" alt="Mountains" style="width:100%">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <br> <br>
+            <h3 style="text-align:left ; padding: 30px ;font-family: cursive;">DIGITAL ARTWORKS</h3>
+
+            </div>
+            <div id="div12" class="container">
+
+            </div>
+            <div class="row" style="padding:30px ;">
+                <div class="row">
+                    <div class="column">
+                        <img src="../harshita/images/RM-DIGITAL.gif" alt=" Snow" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../harshita/images/ROHIT-DIGITAL.gif" alt="Forest" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../harshita/images/SRK-DIGITAL.gif" alt="Mountains" style="width:100%">
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+            <br> <br>
+        </section>
+
+        <h1 style="text-align:left ; padding: 30px ;font-family: cursive;">BLOG</h1> <br>
+        <div class="row" id="div2" style="padding:30px ;">
+            <div class="col-sm-4 p-3 text-white">
+                <img src="../harshita/images/aiimg.png" alt="" style="width: 700px; ;">
+            </div>
+            <div class="col-sm-8 p-3 ">
+                <p
+                    style="font-size: xx-large; text-align:center; padding-left: 5vw; padding-top: 5vw;font-family: cursive;">
+                    I love illustrations and Animation. <br>
+                    My hobbies are singing,dancing and drawing. <br>
+                    This web page contains all my digital artworks, <br>
+                    commissioned Artworks and a few of my own creations. <br> </p>
+            </div>
+        </div>
+
+
+        <h1 style="text-align:left ; padding: 30px ;font-family: cursive;">CONTACT US</h1> <br>
+        <div id="div3" class="container">
+
+            <section>
+                <div>
+                    <div class="row" style="text-align:left ;padding:30px;font-family: cursive ;">
+                        <div class="col-sm-10">
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+
+                                    <h3>Number- 9892473532 <br><br>
+                                        Email- pharshita257@gmail.com <br><br>
+                                        Instagram Id- @lively_colours_29 <br><br>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                        Business Account- @the.scribblers <br>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        Twitter Account- @livelycolours29
+                                    </h3><br><br>
+
+                                    <h2 style="text-align:left ;">FOR MORE</h2>
+                                    <form data-form-title="CONTACT US" action="/harshita/form.html"
+                                        onsubmit="return validate()">
+                                        <input type="hidden" data-form-email="true">
+                                        <div class="form-group" style="padding: 2vw;">
+                                            <input type="text" name="name" required="" placeholder="Name*" id="fname">
+                                        </div>
+                                        <div class="form-group" style="padding: 2vw;">
+                                            <input type="email" name="email" required="" placeholder="Email*"
+                                                id="femail">
+                                        </div>
+                                        <div class="form-group" style="padding: 2vw;">
+                                            <input type="tel" name="phone" placeholder="Phone" id="fphone">
+                                        </div>
+                                        <div class="form-group" style="padding: 2vw;">
+                                            <textarea name="message" placeholder="Message" rows="7"
+                                                id="fmessage"></textarea>
+                                        </div>
+                                        <div style="padding: 2vw;">
+                                            <button type="submit" class="btn btn-lg btn-danger">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <h2>
+
+            <img src="../harshita/images/pj5 logo.png" alt="" style="padding: 20px" ; width=20%; font-family: cursive;>
+
+            <a href="../HTML/page2.html"> Click to see P5js Editor Files</a>
+            <div id="div11" class="container">
+
+        </h2>
+
+    </body>
+
+</html>
